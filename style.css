@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: rgb(209, 190, 19);
+}
+
+body {
+  height: 100%;
+  background: url(/img/gallery-1.jpg.crdownload);
+  background-size: cover;
+  min-height: 100%;
+  color: rgba(255, 255, 255, 0.726);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .logo {
+  padding: 12px 24px;
+  font-size: 24px;
+}
+
+.coming-soon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coming-soon .head-1 {
+  font-size: 64px;
+  position: relative;
+  animation: animatetop 0.4s;
+}
+
+.hr {
+  margin: auto;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.days {
+  text-align: center;
+  font-size: 28px;
+  margin: 18px 0;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 12px 24px;
+}
